@@ -29,7 +29,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_map); // note: this is activity_map.xml
+        setContentView(R.layout.activity_map); 
 
         textInputEditText = findViewById(R.id.textInputEditText);
         button = findViewById(R.id.btn);
